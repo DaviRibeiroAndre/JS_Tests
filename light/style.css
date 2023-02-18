@@ -111,7 +111,7 @@ img {
 
 :root {
     --gray0: #f8f8f8;
-    --gray1: #003879;
+    --gray1: #dbe1e8;
     --gray2: #b2becd;
     --gray3: #6c7983;
     --gray4: #454e56;
@@ -124,7 +124,7 @@ img {
 
 .light {
     --bg: var(--gray0);
-    --bg-nav: linear-gradient(to right, var(--gray1),var(--gray0), var(--gray3));
+    --bg-nav: linear-gradient(to right, var(--gray1), var(--gray3));
     --bg-dropdown: var(--gray0);
     --text: var(--gray6);
     --border-color: var(--blue);
@@ -143,11 +143,11 @@ img {
 
 .solar {
     --gray0: #fbffd4;
-    --gray1: #000000;
+    --gray1: #f7f8d0;
     --gray2: #b6f880;
     --gray3: #5ec72d;
     --gray4: #3ea565;
-    --gray5: #680000;
+    --gray5: #005368;
     --gray6: #003d4c;
 }
 
@@ -173,9 +173,8 @@ img {
         filter: hue-rotate(0deg);
     }
     to {
-        filter: hue-rotate(-360deg);
+        filter: hue-rotate(360deg);
     }
-
 }
 
 
